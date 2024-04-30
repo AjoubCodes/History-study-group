@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 * {
   padding: 0;
@@ -46,11 +46,19 @@ nav a {
   width: 100%;
 }
 
+/* about */
 #about {
   border: 2px solid #233766;
   padding: 20px;
   margin: 2rem;
   text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  background: #65759c;
 }
 
 /* Form */
