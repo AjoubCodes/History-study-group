@@ -3,11 +3,8 @@
 * {
   padding: 0;
   margin: 0;
-}
-
-body {
-  font-family: inherit;
-  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
 }
 
 /* Navigation Bar */
@@ -39,11 +36,10 @@ nav a {
   color: black;
 }
 
-.photo1 {
+img {
   width: 100%;
-  height: fit-content;
   height: 600px;
-  width: 100%;
+  max-width: 100%;
 }
 
 /* about */
@@ -59,6 +55,7 @@ th,
 td {
   border: 1px solid white;
   background: #65759c;
+  border-collapse: collapse;
 }
 
 /* Form */
@@ -119,8 +116,7 @@ td {
 }
 
 @media screen and (min-width: 576px) {
-  .photo1 {
-    width: 100%;
-    height: fit-content;
+  img {
+    max-width: 100%;
   }
 }
