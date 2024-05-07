@@ -76,6 +76,20 @@ nav {
   text-align: center;
 }
 
+.about-h2 {
+  margin-bottom: 20px;
+}
+
+/* list */
+.lists {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+li {
+  margin-bottom: 30px;
+}
+
 table,
 th,
 td {
