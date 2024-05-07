@@ -3,10 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- meta tags -->
     <meta name="description" content="Study, Study history, study group, history, group studies">
-    <meta name="keywords" content="Study, study history, study group, history, group studies, acient history, modern history, historical, acient, BCE, CE, BC, AD, old">
+    <meta name="keywords"
+        content="Study, study history, study group, history, group studies, acient history, modern history, historical, acient, BCE, CE, BC, AD, old">
     <title>History Club</title>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -14,28 +16,35 @@
 
 <body>
     <!-- Nav -->
-    <nav>
-        <h2><a href="index.html">History Club</a></h2>
-        <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#signup">Sign Up</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">History Club</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-
-    <!-- Header -->
-    <header id="header">
+    <section>
         <div class="container">
             <div class="image">
-                <img src="/assets/images/pexels-pixabay-36006.jpg" alt="greek statues">
+              <img src="assets/images/pexels-pixabay-36006.jpg">
             </div>
             <div class="text">
-                <h1>History Club</h1>
-                <h2>Join Us On A Journey Through Time!</h2>
+              <h1>History Club</h1>
+              <br>
+              <h3>Join us on a journey trough time!</h3>
             </div>
-        </div>
-    </header>
+          </div>
+    </section>
 
     <br>
 
@@ -44,16 +53,19 @@
         <section id="about">
             <div>
                 <h2>About Us</h2>
-                <h3>Our study group is a vibrant community where enthusiasts gather to explore the captivating stories
+                <h3>We are a vibrant community where enthusiasts gather to explore the captivating stories
                     of the past.</h3>
-                    <br>
+                <br>
                 <ul style="text-align: left;">
                     <li>Engaging Discussions: Dive into thought-provoking conversations about historical events,
                         figures, and civilizations.</li>
+                        <br>
                     <li>Diverse Perspectives: Explore history from different angles and viewpoints, enriching your
                         understanding of the past.</li>
+                        <br>
                     <li>Expand Your Knowledge: Discover new insights, expand your historical knowledge, and satisfy your
                         curiosity about the world's fascinating past.</li>
+                        <br>
                     <li>Connect with Fellow History Lovers: Forge meaningful connections with like-minded individuals
                         who share your passion for unraveling the mysteries of history.</li>
                 </ul>
@@ -85,8 +97,7 @@
 
     </main>
 
-
-
+    <br>
 
     <!--signup form -->
     <section id="signup">
@@ -115,6 +126,8 @@
             <h4>337 488 5743 | groupstudies@gmail.com</h4>
         </div>
     </section>
+
+    <br>
 
     <!-- footer -->
     <footer>
